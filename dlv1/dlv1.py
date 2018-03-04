@@ -2,7 +2,6 @@ import os
 import configparser
 import tweepy
 import json
-import time
 
 
 __author__ = "salmansamie"
@@ -77,13 +76,12 @@ def get_followers():
 
 # Collecting Data : Friends/Following
 def get_friends():
-    for friend in tweepy.Cursor(api.friends('samie21s')).items():
-        # Process the friend here
-        print(friend)
+    s = tweepy.Cursor(api.friends_ids('samie21s'))
+    print(s)
 
 
 if __name__ == '__main__':
-    # get_profile()
-    # get_timeline()
-    # get_followers()
+    get_profile()
+    get_timeline()
+    get_followers()
     get_profile()
