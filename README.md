@@ -15,7 +15,7 @@
 ## Modularity
 <p align="center"><img src="https://github.com/salmansamie/dmn/blob/master/artefacts/Screen%20Shot%202018-03-05%20at%2016.11.14.png" alt="Homepage" width="420" height="360" align="middle"> <img src="https://github.com/salmansamie/dmn/blob/master/artefacts/Screen%20Shot%202018-03-05%20at%2016.10.19.png" alt="Homepage" width="420" height="360" align="middle"></p>
 
-<p align="center"><img src="https://github.com/salmansamie/dmn/blob/master/artefacts/Screen%20Shot%202018-03-05%20at%2016.12.38.png" alt="Homepage" width="420" height="360" align="middle">
+<p align="center"><img src="https://github.com/salmansamie/dmn/blob/master/artefacts/Screen%20Shot%202018-03-05%20at%2016.12.38.png" alt="Homepage">
 
 
 ## Centrality
