@@ -76,12 +76,16 @@ def get_followers():
 
 # Collecting Data : Friends/Following
 def get_friends():
-    s = tweepy.Cursor(api.friends_ids('samie21s'))
+    s = api.friends_ids('samie21s')
     print(s)
 
 
 if __name__ == '__main__':
+    print("PROFILE:")
     get_profile()
+    print("\n\n\nTIMELINE:")
     get_timeline()
+    print("\n\n\nFOLLOWERS:")
     get_followers()
-    get_profile()
+    print("\n\n\nFRIENDS:")
+    get_friends()
